@@ -39,7 +39,7 @@ def download(small_file_only = False):
         
         if small_file_only:
             this_content = this_el.content
-            if this_content.strip().endswith(("kb)", "GB)")):
+            if this_content.strip().endswith(("gb)", "GB)")):
                 print "Ignore large file: {}".format(file_name)
                 print
                 continue
